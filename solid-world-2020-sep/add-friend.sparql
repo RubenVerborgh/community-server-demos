@@ -1,0 +1,5 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+INSERT DATA {
+  <https://ruben.verborgh.org/profile/#me> foaf:knows <https://mitzi.inrupt.net/profile/card#me>.
+}

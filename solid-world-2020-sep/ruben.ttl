@@ -1,0 +1,10 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+# Ruben's profile
+<https://ruben.verborgh.org/profile/#me> a foaf:Person;
+    foaf:name       "Ruben Verborgh"@en;
+    foaf:givenName  "Ruben"@en;
+    foaf:familyName "Verborgh"@en;
+    foaf:knows
+      <https://www.w3.org/People/Berners-Lee/card#i>,
+      <https://oz.inrupt.net/profile/card#me>.
