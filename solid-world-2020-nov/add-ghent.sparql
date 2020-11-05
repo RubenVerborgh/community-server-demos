@@ -1,0 +1,7 @@
+PREFIX : <https://ruben.verborgh.org/profile/#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dbp: <http://dbpedia.org/resource/>
+
+INSERT DATA {
+  :me foaf:based_near dbp:Ghent.
+}
